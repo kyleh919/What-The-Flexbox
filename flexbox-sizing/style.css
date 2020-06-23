@@ -198,3 +198,15 @@ input::-moz-focus-inner {
 }
 
 /* We start writing out flexbox here. The above is just page setup */
+.container {
+  border: 3px solid blue;
+  display: flex;
+}
+
+.box {
+  flex: 1;
+}
+
+.box2 {
+  flex: 2;
+}
