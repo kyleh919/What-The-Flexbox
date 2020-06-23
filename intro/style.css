@@ -159,7 +159,7 @@ input::-moz-focus-inner {
 /* Some default styles to make each box visible */
 .box {
   color: white;
-  font-size: 10px;
+  font-size: 20px;
   text-align: center;
   text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
   padding: 10px;
@@ -238,10 +238,26 @@ input::-moz-focus-inner {
   min-height: 100vh;
 } */
 
+/* video 7
 .container {
   border: 3px solid blue;
   display: flex;
   height: 100vh;
   flex-direction: column;
   align-items: center;
+} */
+
+.container {
+  border: 3px solid blue;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+
+  align-content: space-between;
+  /* align-content: center; */
+  /* justify-content: center; */
+}
+
+.box {
+  width: 33.333%;
 }
