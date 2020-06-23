@@ -247,6 +247,7 @@ input::-moz-focus-inner {
   align-items: center;
 } */
 
+/* video 8
 .container {
   border: 3px solid blue;
   height: 100vh;
@@ -255,9 +256,25 @@ input::-moz-focus-inner {
 
   align-content: space-between;
   /* align-content: center; */
-  /* justify-content: center; */
+/* justify-content: center; */
+/* } */
+/*
+.box {
+  width: 33.333%;
+} */
+
+.container {
+  border: 3px solid blue;
+  height: 100vh;
+  display: flex;
+
+  align-items: flex-start;
 }
 
 .box {
   width: 33.333%;
+}
+
+.box1 {
+  align-self: center;
 }
