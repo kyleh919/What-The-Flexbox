@@ -229,10 +229,19 @@ input::-moz-focus-inner {
   order: 2;
 } */
 
+/* video 6
 .container {
   border: 3px solid black;
   display: flex;
   justify-content: center;
   flex-direction: column;
   min-height: 100vh;
+} */
+
+.container {
+  border: 3px solid blue;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
 }
