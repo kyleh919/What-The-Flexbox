@@ -198,3 +198,23 @@ input::-moz-focus-inner {
 }
 
 /* We start writing out flexbox here. The above is just page setup */
+.container {
+  border: 3px solid blue;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.box {
+  flex-grow: 1;
+  flex-basis: 250px;
+}
+
+.box3 {
+  flex-grow: 4;
+}
+
+.box4 {
+  flex-basis: 100px;
+}
