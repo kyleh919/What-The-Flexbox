@@ -91,4 +91,31 @@ footer {
   .flex-nav li {
     flex-basis: 100%;
   }
+
+  .toggleNav {
+    display: inherit;
+  }
+
+  .wrapper {
+    border: 3px solid red;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .wrapper .flex-nav {
+    order: -4;
+  }
+
+  .wrapper .top {
+    order: -3;
+  }
+
+  .wrapper .details {
+    order: -2;
+  }
+
+  .wrapper .signup {
+    order: -1;
+  }
 }
