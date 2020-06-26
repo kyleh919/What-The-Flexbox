@@ -92,30 +92,43 @@ footer {
     flex-basis: 100%;
   }
 
+  /* hamburger menu toggle */
   .toggleNav {
     display: inherit;
   }
 
-  .wrapper {
-    border: 3px solid red;
+  .flex-nav ul {
+    display: none;
+  }
 
+  .flex-nav ul.open {
+    display: flex;
+  }
+
+  /* Flex Container */
+  .wrapper {
     display: flex;
     flex-direction: column;
   }
 
+  /* Flex Item ordering */
+  .wrapper > * {
+    order: 999;
+  }
+
   .wrapper .flex-nav {
-    order: -4;
+    order: 1;
   }
 
   .wrapper .top {
-    order: -3;
+    order: 2;
   }
 
   .wrapper .details {
-    order: -2;
+    order: 3;
   }
 
   .wrapper .signup {
-    order: -1;
+    order: 4;
   }
 }
