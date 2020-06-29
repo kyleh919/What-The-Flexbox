@@ -3,7 +3,9 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -15,20 +17,20 @@ body {
 }
 
 a {
-  color:white;
+  color: white;
 }
 
-.cover  {
-  height:100vh;
-  width:100%;
+.cover {
+  height: 100vh;
+  width: 100%;
 }
 
 /*Video*/
 
 .dog {
-  height:100%;
-  -webkit-filter:blur(5px);
-  filter:blur(5px);
+  height: 100%;
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
   position: absolute;
   top: 0;
   z-index: -1;
@@ -36,15 +38,15 @@ a {
 
 /*Hack to get them to align properly */
 .flex-form > *:not([type="date"]) {
-  border-top:1px solid white;
-  border-bottom:1px solid white;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
 }
 
 .flex-form input[type="submit"] {
-  background:#FF5A5F;
-  border-top: 1px solid #FF5A5F;
-  border-bottom: 1px solid #FF5A5F;
-  color:white;
+  background: #ff5a5f;
+  border-top: 1px solid #ff5a5f;
+  border-bottom: 1px solid #ff5a5f;
+  color: white;
 }
 
 .flex-form {
@@ -53,15 +55,15 @@ a {
 }
 
 .flex-form > * {
-  border:0;
-  padding:10px;
-  background:white;
-  line-height:50px;
+  border: 0;
+  padding: 10px;
+  background: white;
+  line-height: 50px;
   font-size: 20px;
-  border-radius:0;
-  outline:0;
-  border-right:1px solid rgba(0,0,0,0.2);
-  -webkit-appearance:none;
+  border-radius: 0;
+  outline: 0;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-appearance: none;
 }
 
 .flex-form > *:last-child {
